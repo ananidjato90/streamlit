@@ -48,15 +48,14 @@ dataset classique **Iris** de `scikit-learn`.
 
 ``` bash
 git clone <repo_url>
-cd iris-streamlit-app
+cd streamlit
 ```
 
 ### 2. Créer un environnement virtuel
 
 ``` bash
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate    # Windows
+conda create -n streamlit python=3.13
+conda activate streamlit
 ```
 
 ### 3. Installer les dépendances
@@ -69,7 +68,7 @@ pip install -r requirements.txt
 ## ▶️ Lancer l'application
 
 ``` bash
-streamlit run app.py
+streamlit run app_ml_iris.py
 ```
 
 Puis ouvrir dans le navigateur :
