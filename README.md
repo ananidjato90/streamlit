@@ -1,6 +1,6 @@
-# 🌸 Iris Predictor - Streamlit App
+# Iris Predictor - Streamlit App
 
-## 📌 Description
+## Description
 
 Cette application **Streamlit** permet de prédire la classe d'une fleur
 d'iris parmi les trois espèces suivantes :
@@ -12,7 +12,7 @@ d'iris parmi les trois espèces suivantes :
 Le modèle utilisé est un **Random Forest Classifier** entraîné sur le
 dataset classique **Iris** de `scikit-learn`.
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 -   Interface interactive avec **Streamlit**
 -   Saisie utilisateur via sliders :
@@ -24,7 +24,7 @@ dataset classique **Iris** de `scikit-learn`.
 -   Affichage des probabilités par classe
 -   Modèle entraîné automatiquement (cache optimisé)
 
-## 🧠 Modèle Machine Learning
+## Modèle Machine Learning
 
 -   Algorithme : `RandomForestClassifier`
 -   Nombre d'arbres : 100
@@ -35,19 +35,19 @@ dataset classique **Iris** de `scikit-learn`.
     -   petal length (cm)
     -   petal width (cm)
 
-## 📂 Structure du projet
+## Structure du projet
 
     .
     ├── app.py              # Application Streamlit
     ├── README.md           # Documentation
     └── requirements.txt    # Dépendances
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Cloner le repository
 
 ``` bash
-git clone <repo_url>
+git clone https://github.com/ananidjato90/streamlit.git
 cd streamlit
 ```
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```
 
 
-## ▶️ Lancer l'application
+## Lancer l'application
 
 ``` bash
 streamlit run app_ml_iris.py
@@ -76,7 +76,7 @@ Puis ouvrir dans le navigateur :
     http://localhost:8501
 
 
-## 🖥️ Utilisation
+## Utilisation
 
 1.  Ajuster les paramètres dans la barre latérale
 2.  Visualiser les dimensions sélectionnées
